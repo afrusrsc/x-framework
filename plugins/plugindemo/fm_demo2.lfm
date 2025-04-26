@@ -1,0 +1,4 @@
+inherited frmDemo2: TfrmDemo2
+  Caption = '这是插件窗体创建的窗体'
+  Color = clSkyBlue
+end

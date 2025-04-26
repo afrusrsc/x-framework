@@ -1,0 +1,43 @@
+inherited frmDemo: TfrmDemo
+  Height = 392
+  Width = 553
+  Caption = '这是插件的Demo窗口'
+  ClientHeight = 392
+  ClientWidth = 553
+  object Button1: TButton[0]
+    Left = 59
+    Height = 25
+    Top = 44
+    Width = 141
+    Caption = 'ShowModalDemo2'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton[1]
+    Left = 59
+    Height = 25
+    Top = 81
+    Width = 141
+    Caption = 'ShowDemo2'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton[2]
+    Left = 59
+    Height = 25
+    Top = 120
+    Width = 141
+    Caption = 'FreeDemo2'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Panel1: TPanel[3]
+    Left = 16
+    Height = 231
+    Top = 152
+    Width = 528
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Caption = 'Panel1'
+    TabOrder = 3
+  end
+end

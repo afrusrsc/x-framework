@@ -1,0 +1,7 @@
+object frmPluginBase: TfrmPluginBase
+  Left = 282
+  Height = 240
+  Top = 250
+  Width = 320
+  LCLVersion = '3.6.0.0'
+end

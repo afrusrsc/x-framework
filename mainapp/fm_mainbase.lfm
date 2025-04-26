@@ -1,0 +1,68 @@
+object frmMainBase: TfrmMainBase
+  Left = 282
+  Height = 436
+  Top = 250
+  Width = 414
+  ClientHeight = 436
+  ClientWidth = 414
+  OnClose = FormClose
+  Position = poMainFormCenter
+  LCLVersion = '3.6.0.0'
+  object Button1: TButton
+    Left = 35
+    Height = 25
+    Top = 20
+    Width = 75
+    Caption = '加载动态库'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 36
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = '获取接口'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 35
+    Height = 25
+    Top = 91
+    Width = 75
+    Caption = '卸载动态库'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 128
+    Height = 25
+    Top = 56
+    Width = 144
+    Caption = 'ShowModalForm'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 128
+    Height = 25
+    Top = 97
+    Width = 147
+    Caption = 'Button5'
+    TabOrder = 4
+    OnClick = Button5Click
+  end
+  object PageControl1: TPageControl
+    Left = 28
+    Height = 270
+    Top = 154
+    Width = 356
+    ActivePage = TabSheet1
+    TabIndex = 0
+    TabOrder = 5
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+    end
+  end
+end
